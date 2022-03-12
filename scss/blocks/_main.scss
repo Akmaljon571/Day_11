@@ -1,0 +1,197 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+
+    &_h3{
+        font-family: Montserrat;
+        font-size: 39px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 57px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: $green;
+    }
+
+    .sourse_qiz{
+        width: 590px;
+        height: auto;
+    }
+   
+    &_div{
+        color: $black;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding: 59px 14px 60px 24px;
+        margin-top: 75px;
+        margin: 75px auto;
+        box-shadow: 10px 10px 10px rgba(207, 207, 207, 0.25);
+        width: 995px;
+
+    }
+
+}
+
+@media only screen and (max-width:1000px){
+    .main{
+        margin-top: 12px;
+
+        .sourse_qiz{
+            width: 471px;
+            height: 452px;
+            margin-left: 21px;
+        }
+
+        &_h3{
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 46px;
+            letter-spacing: 0px;
+            text-align: left;
+            
+        }
+
+        &_div{
+            width: 750px;
+            padding: 37px 37px 38px 51px;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin: 50px auto;
+            
+        }
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    .main{
+        margin-top: 10px;
+        margin: 10px 40px;
+
+
+        .sourse_qiz{
+            width: 311px;
+            height: auto;
+        }
+
+        &_h3{
+            font-family: Montserrat;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0px;
+            text-align: left;
+
+        }
+
+        &_div{
+            width: 572px;
+            padding: 32px 31px 32px 26px;
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin: 50px auto;
+        }
+    }
+}
+
+@media only screen and (max-width:480px){
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+        .sourse_qiz{
+            width: 480px;
+            height: auto;
+            margin: 0;
+        }
+
+        &_h3{
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: 0px;
+            text-align: center;
+            margin: 35px 56px;
+        }
+
+        &_div{
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+            margin: 50px auto;
+            width: 321px;
+            padding: 22px 19px ;
+        }
+    }
+}
+
+@media only screen and (max-width:320px){
+     .container{
+         padding: 0;
+     }
+
+     .sourse_qiz{
+         width: 320px;
+         height: auto;
+     }
+
+    .main{
+        margin-top: 34px;
+
+        &_h3{
+            font-family: Montserrat;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: center;            
+        }
+
+        &_div{
+            width: 290px;
+            padding: 40px 2px 23px 2px;
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0px;
+            text-align: center;
+            margin: 50px auto;
+        }
+    }
+}

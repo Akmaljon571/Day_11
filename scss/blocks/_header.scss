@@ -1,0 +1,215 @@
+.desktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    &_wrapper{
+        width: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_tel{
+        font-family: "Montserrat";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        display: flex;
+        align-items: center;
+
+
+        &::before{
+            content: "";
+            display: block;
+            width: 28px;
+            height: 28px;
+            background-image: url(./../image/tel.svg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            margin-right: 22px;
+        }
+    }
+
+    &_tell{
+        text-decoration: none;
+        color: $black;
+
+        &:hover{
+            color: $green;
+         }
+    }
+
+    &_fb{
+       margin-right: 25px; 
+    }
+    
+    &_line{
+        position: absolute;
+        margin-top: 78px;
+        width: 100%;
+        border: 1px solid $yashilro;
+    }
+
+    &_select{
+        background-color:transparent;
+        border: none;
+        margin-left: -80px;
+        color: $yashilro;
+        cursor: pointer;
+    }
+
+    &_list{
+         list-style: none;
+         padding: 0;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         margin-top: 22px;
+        }
+        
+        &_item{
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+            cursor: pointer;
+            color: $black;
+
+    }
+
+}
+
+
+.mobile{
+    display: none;
+    &_hom{
+        width: 207px;
+    }
+
+    &_hom1{
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .container{
+        padding: 10px 22px;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+
+    }
+
+    .desktop_line{
+        display: none;
+    }
+
+    .desktop_list{
+        display: none;
+    }  
+
+    .desktop_tel{
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+
+}
+
+@media only screen and (max-width:768px){
+    .mobile_img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .desktop_tel{
+        font-family: Montserrat;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        &::before{
+            width: 23px;
+            height: 23px;
+            margin-right: 9px;
+        }
+    }
+
+    .mobile_hom{
+        width: 100px;
+    }
+    
+    .mobile_hom1{
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .mobile_hom{
+        width: 29px;
+        height: 14px;
+        margin-left: 20px;
+    }
+
+    .mobile_img{
+         width: 45px;
+        height: 46px;
+        margin-top: 5px;
+    }
+
+    .desktop_tel{
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-right: 12px;
+        &::before{
+            width: 14px;
+            height: 14px;
+            margin-right: 9px;
+        }
+    }
+}
+
+@media only screen and (max-width:320px){
+    .mobile_hom{
+        width: 29px;
+        height: 14px;
+        margin-left: 11px;
+    }
+
+    .mobile_img{
+        width: 39px;
+        height: 41px;
+        margin-right: 11px;
+    }
+
+    .desktop_tel{
+       display: none;
+    }
+    
+}

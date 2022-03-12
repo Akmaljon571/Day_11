@@ -1,0 +1,347 @@
+.crol{
+    margin-top: 177px;
+
+
+    &_h3{
+        font-family: Montserrat;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+
+    &_list{
+        max-width:  1200px;
+        height: 1048px;
+        padding: 70px 25px 60px 104px;
+        overflow: scroll;
+        background-color: #ECF9EB;
+    }
+
+    &_item{
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 80px;
+    }
+
+    &_name{
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        white-space: nowrap;
+        margin: 0;
+        margin-bottom: 9px;
+    }
+
+    &_soat{
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &_text{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 746px;
+        height: 140px;
+        margin-left: 111px;
+        overflow: hidden;
+    }
+
+    &_button{
+        background-color: #55A630;
+        border: none;
+        margin: 60px auto;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: $white;
+        padding: 21px 60px;
+        text-align: center;
+        &:hover{
+           background-color: #fff;
+           color: #55A630;
+           cursor: pointer;
+        }
+        &_div{
+            max-width: 1200px;
+            text-align: center;
+            background-color: #ECF9EB;
+            margin-top: -20px;
+
+        }
+    }
+}
+
+// 1000px
+
+@media only screen and (max-width:1000px) {
+    .crol_button_div{
+        max-width: 956px;
+    }
+}
+
+//768px
+
+@media only screen and (max-width:768px) {
+    .crol{
+        &_h3{
+            font-family: Montserrat;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        &_item{
+            display: flex;
+            flex-direction: column;
+        }
+
+        &_div{
+            order: 1;
+            margin-left: 400px;
+            margin-right: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        &_soat{
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        
+        &_name{
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+            order:1 ;  
+        }
+
+        &_text{
+          margin: 0;
+          width: 550px;
+          height: 138px;
+          font-family: Montserrat;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 23px;
+          letter-spacing: 0em;
+          text-align: left;   
+          overflow: hidden;
+        }
+
+        &_button_div{
+            max-width: 724px;
+        }
+    }
+}
+
+// 480px
+
+@media only screen and (max-width:480px) {
+    .crol{
+        &_h3{
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 15px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        &_list{
+            padding: 24px;
+            margin: 0 64px;
+        }
+
+        &_item{
+          margin-bottom: 50px;
+        }
+
+        &_div{
+            order: 1;
+            margin-left: 300px;
+            margin-right: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        &_soat{
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+            
+        }
+        
+        &_name{
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+            order:1 ;  
+        }
+
+        &_text{
+          margin: 0;
+          width: 320px;
+          height: 253px;
+          font-family: Montserrat;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 23px;
+          letter-spacing: 0em;
+          text-align: left;   
+          overflow: hidden;
+        }
+
+        &_button{
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 14px;
+            letter-spacing: 0px;
+            text-align: center;
+            padding: 17px 45px;
+        }
+
+        &_button_div{
+            max-width: 352px;
+            margin: 0 64px;
+        }
+    }
+}
+
+// 320px
+
+@media only screen and (max-width:320px) {
+    .crol{
+        &_h3{
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        &_list{
+            padding: 24px;
+            width: 300px;
+            height: 791px;
+            margin: 0 10px;
+        }
+
+        &_item{
+          margin-bottom: 50px;
+        }
+
+        &_div{
+            order: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-left:260px;
+        }
+
+        &_soat{
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+            
+        }
+        
+        &_name{
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+            order:1 ;  
+        }
+
+        &_text{
+          margin: 0;
+          width: 252px;
+          height: 161px;
+          font-family: Montserrat;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 23px;
+          letter-spacing: 0em;
+          text-align: left;           
+          overflow:hidden;
+        }
+
+        &_button{
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0px;
+            text-align: center;            
+            padding: 15px 37px;
+        }
+
+        &_button_div{
+            max-width: 300px;
+            margin: 0 10px;
+        }
+    }
+}  
